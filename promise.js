@@ -76,7 +76,6 @@
                 var ret;
 
                 if(isFunction(onResolve)) {
-                    //吞掉异常,只返回异常的message
                     try{
                         ret = onResolve(value);
                     } catch(e) {
